@@ -1,14 +1,14 @@
 package ejercicios.visitor;
 
-public class LaPaz implements iDepartment{
+public class SantaCruz implements iDepartment{
     private String nombre;
     private int numeroProv;
     private int nHabitantes;
     private String clima;
     private int dineroTurismo;
 
-    public LaPaz( int numeroProv, int nHabitantes, String clima, int dineroTurismo) {
-        this.nombre = "La Paz";
+    public SantaCruz( int numeroProv, int nHabitantes, String clima, int dineroTurismo) {
+        this.nombre = "Santa Cruz";
         this.numeroProv = numeroProv;
         this.nHabitantes = nHabitantes;
         this.clima = clima;
@@ -54,7 +54,6 @@ public class LaPaz implements iDepartment{
     public void setDineroTurismo(int dineroTurismo) {
         this.dineroTurismo = dineroTurismo;
     }
-
     public void info(){
         System.out.println("# Provincias: "+numeroProv);
         System.out.println("Habitantes: "+nHabitantes);
