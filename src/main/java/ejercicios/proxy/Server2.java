@@ -12,6 +12,7 @@ public class Server2 implements IServer{
 
     public void showInfo(){
         System.out.println("Server 2....");
+        System.out.println("*********************");
         for (Usuario user:users) {
             user.showInfo();
         }
